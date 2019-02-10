@@ -1,9 +1,13 @@
-import re, os
+from tkinter import filedialog
+import os
+from tkinter import *
+import tkinter as tk
 from nltk.corpus import stopwords
 
 removable_words_symbols = {'test', 'hi'}
 stop_words = stopwords.words("english")
 removable_words_symbols.update(stop_words)
+
 symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "()", "_", "+", "<>", "?", ".", "/", ",", " "]
 removable_words_symbols.update(symbols)
 
@@ -80,10 +84,12 @@ class Document(object):
             encoded in utf-8 or in iso-8859... (latin-1).
             The words of the document are stored in a Bag of Words, i.e.
             self._words_and_freq = BagOfWords() """
+
         try:
             text = open(filename, "r", encoding='utf-8').read()
         except UnicodeDecodeError:
             text = open(filename, "r", encoding='latin-1').read()
+
 
         text = text.lower()
         words = re.split(r"\W", text)
@@ -174,6 +180,7 @@ class Classifier(object):
     def __init__(self):
         self.__document_classes = {}
         self.__vocabulary = BagOfWords()
+        self.window = Tk()
 
     def sum_words_in_class(self, dclass):
         """ The number of times all different words of a dclass appear in a class """
@@ -200,88 +207,115 @@ class Classifier(object):
             doc.read_document(directory + "/" + file, learn=True)
             document_class = document_class + doc
 
-
-
         """__document_classes stores the locations of each document class"""
         self.__document_classes[dclass_name] = document_class
         document_class.SetNumberOfDocs(len(class_files_list))
+        print(document_class.WordsAndFreq())
         print('Number Of Documents:', str(document_class.NumberOfDocuments()))
 
     def Probability(self, doc, document_class=""):
-        """Calculates the probability for a class dclass given a document doc"""
 
         if document_class:
 
-            """Variable to store the sum of words in a class """
             sum_word_in_class = self.sum_words_in_class(document_class)
-
             prob = 0
 
-            d = Document(self.__vocabulary)
-            d.read_document(doc)
+            test_document = Document(self.__vocabulary)
+            test_document.read_document(doc)
 
-            print('\n')
-            for category in self.__document_classes:
+            for current_class in self.__document_classes:
 
-                sum_word_in_category = self.sum_words_in_class(category)
-                print('Class ->', category , 'Number Of Words:', sum_word_in_category)
+                sum_word_in_category = self.sum_words_in_class(current_class)
 
                 product = 1
-                for word_in_doc in d.Words():
-
+                for word_in_doc in test_document.Words():
                     if word_in_doc not in removable_words_symbols:
-
+                        print(word_in_doc)
                         word_freq_in_class = 1 + self.__document_classes[document_class].WordFreq(word_in_doc)
-                        word_freq_in_category = 1 + self.__document_classes[category].WordFreq(word_in_doc)
+                        word_freq_curr_class = 1 + self.__document_classes[current_class].WordFreq(word_in_doc)
 
-                        result = word_freq_in_category * sum_word_in_class / (
-                                word_freq_in_class * sum_word_in_category)
-
+                        result = word_freq_curr_class * sum_word_in_class / (word_freq_in_class * sum_word_in_category)
                         product *= result
 
-                prob += product * self.__document_classes[category].NumberOfDocuments() / self.__document_classes[
-                    document_class].NumberOfDocuments()
+                prob += product * self.__document_classes[current_class].NumberOfDocuments() / self.__document_classes[document_class].NumberOfDocuments()
 
             if prob != 0:
                 return 1 / prob
             else:
                 return -1
         else:
-
             prob_list = []
             for document_class in self.__document_classes:
-
-                print('\nCalculating Probability -> Document Class:', document_class)
                 prob = self.Probability(doc, document_class)
-                print('\t Probability:', str(prob))
                 prob_list.append([document_class, prob])
 
             prob_list.sort(key=lambda x: x[1], reverse=True)
-            print('List Of Probabilities:', prob_list)
-
+            print(prob_list)
             return prob_list
+
+    def start_program(self):
+
+        self.window.title("Document Classifier")
+        self.window.geometry('800x400')
+
+        btn = Button(self.window, text="Open File", bg="black", fg="white", command=classifier.choose_file)
+        btn.grid(sticky=W, row=0, padx=5)
+
+        btn = Button(self.window, text="Learn Files", bg="black", fg="white", command=classifier.start_learning)
+        btn.grid(column=1, row=0, padx=5)
+
+        btn = Button(self.window, text="Classify File", bg="black", fg="white", command=classifier.start_classifying)
+        btn.grid(column=2, row=0, padx=5)
+
+        self.window.mainloop()
+
+
+    def choose_file(self):
+
+        file1 = filedialog.askopenfile()
+        data = file1.read()
+
+        f = open("test/test.txt", "w+")
+        for i in data:
+            f.write(i)
+        f.close()
+
+        w = tk.Label(self.window, text="File Opened")
+        w.grid(column=0, row=1)
+
+    def start_learning(self):
+        DClasses = ["heart", "volcanoes", "mongol"]
+
+        type_of_docs = "learn/"
+
+        w = tk.Label(self.window, text="Learning Data")
+        w.grid(column=1, row=1)
+
+        for doc_class in DClasses:
+            print('\nCurrent Class: ', doc_class)
+            self.learn(type_of_docs + doc_class, doc_class)
+
+    def start_classifying(self):
+        w = tk.Label(self.window, text="Classifying Your Document")
+        w.grid(column=2, row=1)
+        type_of_docs = "test/"
+        result = self.Probability(type_of_docs + "/" + "test.txt")
+
+        T = Text(self.window, height=6, width=30)
+        T.grid(column=0, row=2)
+
+        for word in result:
+            T.insert(END, word)
+            T.insert(END, "\n")
+
 
 
 classifier = Classifier()
+classifier.start_program()
 
-DClasses = ["clinton", "lawyer", "math", "medical", "music", "sex"]
 
-type_of_docs = "learn/"
 
-print('Learning\n')
-for doc_class in DClasses:
-    print('\nCurrent Class: ', doc_class)
-    classifier.learn(type_of_docs + doc_class, doc_class)
 
-type_of_docs = "test/"
 
-print('Testing\n')
-for doc_class in DClasses:
-    print('\t\t\t\t\nNew Class\n')
-    print('\t\nCurrent Class: ', doc_class)
-    files_in_class_list = os.listdir(type_of_docs + doc_class)
 
-    for file in files_in_class_list:
-        print('\n\n----------> New File <-----------')
-        print('\t\nCurrent File in Class: ', file)
-        res = classifier.Probability(type_of_docs + doc_class + "/" + file)
+

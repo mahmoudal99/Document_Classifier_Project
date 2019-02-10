@@ -1,7 +1,1005 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59fa455d-7f9e-4596-90d7-e272ae11edf9" name="Default Changelist" comment="" />
+    <list default="true" id="59fa455d-7f9e-4596-90d7-e272ae11edf9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Document_Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Document_Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/Clinton.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/clinton/clinton9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer1.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer2.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer204.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer205.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer206.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer207.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer208.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer210.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer215.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer220.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer221.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer222.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer224.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer225.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer226.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer227.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer228.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer229.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer230.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer231.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer232.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer234.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer235.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer236.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer237.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer238.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer239.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer240.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer241.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer242.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer244.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer245.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer246.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer247.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer248.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer249.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer250.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer251.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer252.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer254.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer255.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer256.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer257.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer258.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer259.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer260.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer261.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer262.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer264.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer265.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer266.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer267.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer268.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer269.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer270.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer271.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer272.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer274.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer275.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer276.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer277.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer278.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer279.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer280.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer281.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer282.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer284.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer285.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer286.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer287.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer288.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer289.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer290.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer291.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer292.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer294.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer295.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer296.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer297.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer298.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer299.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer3.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer300.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer301.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer302.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer304.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer305.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer306.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer307.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer308.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer309.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer310.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer311.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer312.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer314.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer317.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer319.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer322.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer324.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer325.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer326.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer327.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer328.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyer9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/lawyer/lawyers1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math114.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math118.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math119.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math121.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math122.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math124.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math132.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math134.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math135.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math136.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math137.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math138.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math139.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/math/math99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical114.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical118.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical119.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical121.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical122.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical124.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical132.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical134.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical135.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical136.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical137.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical138.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical139.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical140.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical141.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical142.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical144.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical145.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical146.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical147.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical148.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical149.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical150.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical151.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical152.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical154.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical155.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical156.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical157.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical158.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical159.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical160.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical161.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical162.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical164.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical165.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical166.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical167.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical168.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical169.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical170.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical171.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical172.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical174.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical175.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical176.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical177.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical178.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical179.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical180.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical181.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical182.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical184.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical185.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical186.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical187.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical188.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical189.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical190.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical191.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical192.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical194.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical195.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical196.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical197.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical198.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical199.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical204.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical205.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical206.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical207.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical208.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical210.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical215.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical220.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical221.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/medical/medical99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/Music.Humor.txt.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music114.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music118.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music119.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music121.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music122.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music124.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music132.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music134.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music135.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music136.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/music/music99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex.ges" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex114.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex118.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex119.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex121.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex122.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex124.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex132.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex134.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex135.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex136.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex137.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex138.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex139.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex140.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex141.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex142.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex144.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex145.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex146.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex147.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex148.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex149.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex150.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex151.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex152.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex154.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex155.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex156.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex157.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex158.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex159.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex160.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex161.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex162.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex164.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex165.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex166.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex167.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex168.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex169.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex170.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex171.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex172.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex174.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex175.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex176.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex177.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex178.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex179.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex180.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex181.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex182.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex184.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex185.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex186.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex187.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex188.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex189.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex190.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex191.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex192.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex194.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex195.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex196.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex197.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex198.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex199.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex204.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex205.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex206.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/sex/sex99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clinton/clinton13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clinton/clinton23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clinton/clinton3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clinton/clinton33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clinton/clinton43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clinton/clinton53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer203.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer223.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer233.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer243.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer253.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer263.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer273.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer283.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer293.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer303.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer313.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer323.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lawyer/lawyer73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math133.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/math/math93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical133.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical143.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical153.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical173.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical183.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical193.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical203.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medical/medical93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music133.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/music/music93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex133.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex143.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex153.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex173.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex183.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex193.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex203.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sex/sex93.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,43 +1010,47 @@
     <session id="-13079682">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ges" value="1" />
-          <entry key="py" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="ges" value="2" />
+          <entry key="py" value="3" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="py" value="4221" />
+          <entry key="py" value="5902" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="4221" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Python" value="5902" />
         </counts>
       </usages-collector>
     </session>
@@ -58,10 +1060,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Document_Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="-4046">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1549459619339" expanded="true" signature="8514:9111" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,32 +1084,48 @@
       <find>symbols</find>
       <find>non_alpha</find>
       <find>remove_words</find>
+      <find>d</find>
+      <find>category</find>
+      <find>word_freq_in_class</find>
+      <find>word_freq_in_category</find>
     </findStrings>
     <replaceStrings>
       <replace>sym</replace>
       <replace>symbols</replace>
       <replace>removable_words_symbols</replace>
+      <replace>test_document</replace>
+      <replace>class</replace>
+      <replace>current_class</replace>
+      <replace>word_freq_curr_class</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/test/clinton/test.txt" />
+        <option value="$PROJECT_DIR$/test/clinton/test2.txt" />
+        <option value="$PROJECT_DIR$/learn/geography/Volcanoes.txt" />
+        <option value="$PROJECT_DIR$/learn/geography/NitrogenCycle.txt" />
         <option value="$PROJECT_DIR$/Document_Classifier.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1245" />
-    <option name="height" value="1075" />
+    <option name="y" value="-10" />
+    <option name="width" value="885" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,12 +1136,24 @@
             <path>
               <item name="Document_Classification_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Document_Classification_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Document_Classification_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Document_Classification_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="volcanoes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Document_Classification_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Document_Classification_Project" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,6 +1161,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mahmo\PycharmProjects\Document_Classification_Project\learn\geography" />
+      <recent name="C:\Users\mahmo\PycharmProjects\Document_Classification_Project\learn\biology" />
+      <recent name="C:\Users\mahmo\PycharmProjects\Document_Classification_Project\learn\history" />
       <recent name="C:\Users\mahmo\PycharmProjects\Document_Classification_Project" />
     </key>
   </component>
@@ -188,25 +1222,45 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120290816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5637584" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14630872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120290816" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39731544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32885906" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -223,18 +1277,64 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn/sex/sex.ges">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/learn/sex/sex.ges" />
+    <entry file="file://$PROJECT_DIR$/test/sex/sex3.txt" />
+    <entry file="file://C:/Program Files/Python37/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1704" selection-start-line="1704" selection-end-line="1704" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sex/sex3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/learn/clinton/clinton1.txt" />
+    <entry file="file://$PROJECT_DIR$/learn/lawyer/lawyer1.txt" />
+    <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://$PROJECT_DIR$/test/clinton/clinton23.txt" />
+    <entry file="file://$PROJECT_DIR$/test/clinton/clinton13.txt" />
+    <entry file="file://$PROJECT_DIR$/test/clinton/clinton3.txt" />
+    <entry file="file://$PROJECT_DIR$/test/clinton/clinton53.txt" />
+    <entry file="file://$PROJECT_DIR$/test/lawyer/lawyer3.txt" />
+    <entry file="file://$PROJECT_DIR$/test/clinton/test2.txt" />
+    <entry file="file://$PROJECT_DIR$/test/clinton/test.txt" />
+    <entry file="file://$PROJECT_DIR$/learn/history/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/learn/clinton/Clinton.ges" />
+    <entry file="file://$PROJECT_DIR$/learn/volcanoes/NitrogenCycle.txt" />
+    <entry file="file://$PROJECT_DIR$/learn/heart/Eye.txt" />
+    <entry file="file://$PROJECT_DIR$/test/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="93" lean-forward="true" selection-start-column="93" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/heart/Heart.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/mongol/MongolEmpire.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/volcanoes/Volcanoes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Document_Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="-4046">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1549459619339" expanded="true" signature="8514:9111" ph="..." />
           </folding>
         </state>
       </provider>
