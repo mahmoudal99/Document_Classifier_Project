@@ -178,7 +178,7 @@ class DocumentClass(Document):
 
 class Classifier(object):
     def __init__(self):
-        self.__document_classes = {}
+        self.learned_classes = {}
         self.__vocabulary = BagOfWords()
         self.window = Tk()
 
@@ -186,7 +186,7 @@ class Classifier(object):
         """ The number of times all different words of a dclass appear in a class """
         sum = 0
         for word in self.__vocabulary.Words():
-            WaF = self.__document_classes[dclass].WordsAndFreq()
+            WaF = self.learned_classes[dclass].WordsAndFreq()
             if word in WaF:
                 sum += WaF[word]
         return sum
@@ -208,36 +208,41 @@ class Classifier(object):
             document_class = document_class + doc
 
         """__document_classes stores the locations of each document class"""
-        self.__document_classes[dclass_name] = document_class
+        self.learned_classes[dclass_name] = document_class
         document_class.SetNumberOfDocs(len(class_files_list))
         print(document_class.WordsAndFreq())
         print('Number Of Documents:', str(document_class.NumberOfDocuments()))
 
-    def Probability(self, doc, document_class=""):
+    def Probability(self, test_doc, document_class=""):
 
         if document_class:
 
-            sum_word_in_class = self.sum_words_in_class(document_class)
+            sum_of_words_in_doc_class = self.sum_words_in_class(document_class)
             prob = 0
 
             test_document = Document(self.__vocabulary)
-            test_document.read_document(doc)
+            test_document.read_document(test_doc)
 
-            for current_class in self.__document_classes:
+            print("2nd For Loop")
+            """ Loop through each learned class """
+            for _class in self.learned_classes:
 
-                sum_word_in_category = self.sum_words_in_class(current_class)
+                print('\tClass: ', str(_class))
+
+                sum_of_words_in_class = self.sum_words_in_class(_class)
 
                 product = 1
                 for word_in_doc in test_document.Words():
-                    if word_in_doc not in removable_words_symbols:
-                        print(word_in_doc)
-                        word_freq_in_class = 1 + self.__document_classes[document_class].WordFreq(word_in_doc)
-                        word_freq_curr_class = 1 + self.__document_classes[current_class].WordFreq(word_in_doc)
 
-                        result = word_freq_curr_class * sum_word_in_class / (word_freq_in_class * sum_word_in_category)
+                    if word_in_doc not in removable_words_symbols:
+
+                        freq_of_words_given_docClass = 1 + self.learned_classes[document_class].WordFreq(word_in_doc)
+                        freq_of_words_in_class = 1 + self.learned_classes[_class].WordFreq(word_in_doc)
+
+                        result = freq_of_words_in_class * sum_of_words_in_doc_class / (freq_of_words_given_docClass * sum_of_words_in_class)
                         product *= result
 
-                prob += product * self.__document_classes[current_class].NumberOfDocuments() / self.__document_classes[document_class].NumberOfDocuments()
+                prob += product * self.learned_classes[_class].NumberOfDocuments() / self.learned_classes[document_class].NumberOfDocuments()
 
             if prob != 0:
                 return 1 / prob
@@ -245,11 +250,16 @@ class Classifier(object):
                 return -1
         else:
             prob_list = []
-            for document_class in self.__document_classes:
-                prob = self.Probability(doc, document_class)
+
+            """ Loop through each learned document class """
+            for document_class in self.learned_classes:
+                print("\n1st For Loop")
+                print("Learned Class: ", str(document_class))
+                prob = self.Probability(test_doc, document_class)
                 prob_list.append([document_class, prob])
 
             prob_list.sort(key=lambda x: x[1], reverse=True)
+            print('\n')
             print(prob_list)
             return prob_list
 
@@ -291,6 +301,7 @@ class Classifier(object):
         w = tk.Label(self.window, text="Learning Data")
         w.grid(column=1, row=1)
 
+        """ Learn each text file related to a particular class """
         for doc_class in DClasses:
             print('\nCurrent Class: ', doc_class)
             self.learn(type_of_docs + doc_class, doc_class)
@@ -312,10 +323,3 @@ class Classifier(object):
 
 classifier = Classifier()
 classifier.start_program()
-
-
-
-
-
-
-
