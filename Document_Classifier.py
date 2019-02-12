@@ -16,57 +16,53 @@ class BagOfWords(object):
     """ Bag Of Words Class """
 
     def __init__(self):
-        self.__number_of_words = 0
-        self.__bag_of_words = {}
+        self.word_count = 0
+        self.bag_of_words = {}
 
     def __add__(self, other):
 
         """ Joining two BagOfWords """
         bag = BagOfWords()
-        bag_of_words = bag.__bag_of_words
+        bag_of_words = bag.bag_of_words
 
-        for word in self.__bag_of_words:
+        for word in self.bag_of_words:
 
             if word not in removable_words_symbols:
 
-                bag_of_words[word] = self.__bag_of_words[word]
+                bag_of_words[word] = self.bag_of_words[word]
                 if word in other.__bag_of_words:
                     bag_of_words[word] += other.__bag_of_words[word]
 
-        for word in other.__bag_of_words:
+        for word in other.bag_of_words:
             if word not in removable_words_symbols:
 
                 if word not in bag_of_words:
-                    bag_of_words[word] = other.__bag_of_words[word]
+                    bag_of_words[word] = other.bag_of_words[word]
 
         return bag
 
     def add_word(self, word):
 
         """ A word is added to the Bag Of Words"""
-        self.__number_of_words += 1
-        if word in self.__bag_of_words:
-            self.__bag_of_words[word] += 1
+        self.word_count += 1
+        if word in self.bag_of_words:
+            self.bag_of_words[word] += 1
         else:
-            self.__bag_of_words[word] = 1
-
-    def len(self):
-        """ Returning the number of different words of an object """
-        return len(self.__bag_of_words)
+            self.bag_of_words[word] = 1
 
     def Words(self):
         """ Returning a list of the words contained in the object """
-        return self.__bag_of_words.keys()
+        return self.bag_of_words.keys()
 
     def BagOfWords(self):
         """ Returning the dictionary, containing the words (keys) with their
             frequency (values)"""
-        return self.__bag_of_words
+        return self.bag_of_words
 
     def WordFreq(self, word):
         """ Returning the frequency of a word """
-        if word in self.__bag_of_words:
-            return self.__bag_of_words[word]
+        if word in self.bag_of_words:
+            return self.bag_of_words[word]
         else:
             return 0
 
@@ -74,9 +70,9 @@ class BagOfWords(object):
 class Document(object):
 
     def __init__(self, vocabulary):
-        self.__name = ""
-        self.__document_class = None
-        self._words_and_freq = BagOfWords()
+        self.document_name = ""
+        self.doc_class = None
+        self.document_bag_of_words = BagOfWords()
         Document._vocabulary = vocabulary
 
     def read_document(self, filename, learn=False):
@@ -98,7 +94,7 @@ class Document(object):
 
         """ Adds each word in the document into the Bag Of Words """
         for word in words:
-            self._words_and_freq.add_word(word)
+            self.document_bag_of_words.add_word(word)
             if learn:
                 Document._vocabulary.add_word(word)
 
@@ -107,28 +103,24 @@ class Document(object):
 
         res = Document(Document._vocabulary)
 
-        res._words_and_freq = self._words_and_freq + other._words_and_freq
+        res.document_bag_of_words = self.document_bag_of_words + other.document_bag_of_words
         return res
-
-    def vocabulary_length(self):
-        """ Returning the length of the vocabulary """
-        return len(Document._vocabulary)
 
     def WordsAndFreq(self):
         """ Returning the dictionary, containing the words (keys) with
         their frequency (values) as contained in the BagOfWords attribute
         of the document"""
-        return self._words_and_freq.BagOfWords()
+        return self.document_bag_of_words.BagOfWords()
 
     def Words(self):
         """ Returning the words of the Document object """
-        d = self._words_and_freq.BagOfWords()
+        d = self.document_bag_of_words.BagOfWords()
         return d.keys()
 
     def WordFreq(self, word):
         """ Returning the number of times the word "word" appeared in the
         document """
-        bow = self._words_and_freq.BagOfWords()
+        bow = self.document_bag_of_words.BagOfWords()
         if word in bow:
             return bow[word]
         else:
@@ -156,7 +148,7 @@ class DocumentClass(Document):
         SumN = 0
         for i in range(doc_vocab_len):
             SumN = DocumentClass._vocabulary.WordFreq(word)
-        N = self._words_and_freq.WordFreq(word)
+        N = self.document_bag_of_words.WordFreq(word)
         erg = 1 + N
         erg /= doc_vocab_len + SumN
         return erg
@@ -165,7 +157,7 @@ class DocumentClass(Document):
         """ Overloading the "+" operator. Adding two DocumentClass objects
         consists in adding the BagOfWords of the DocumentClass objectss """
         res = DocumentClass(self._vocabulary)
-        res._words_and_freq = self._words_and_freq + other._words_and_freq
+        res.document_bag_of_words = self.document_bag_of_words + other.document_bag_of_words
 
         return res
 
